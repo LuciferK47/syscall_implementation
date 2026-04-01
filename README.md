@@ -46,8 +46,8 @@ The following steps outline the entire process taken to compile the kernel and i
 
 ### Modified Native Kernel Files
 * `arch/x86/entry/syscalls/syscall_64.tbl`
-* `include/asm-generic/syscalls.h`  *(Represented by syscalls generic-asm.h in the repo)*
-* `include/linux/syscalls.h` *(Represented by syscalls linux.h in the repo)*
+* `include/asm-generic/syscalls.h`  *(Represented by generic-asm/syscalls.h in the repo)*
+* `include/linux/syscalls.h` *(Represented by linux/syscalls.h in the repo)*
 * `kernel/Makefile`
 
 ---
